@@ -33,3 +33,6 @@ function addElementToBeginningOfArray(array,  element) {
                             c = array.slice(1)
                             return c
                               }
+                              function destructivelyRemoveElementFromEndOfArray(array) {
+                                 array.pop()
+                                      return array
