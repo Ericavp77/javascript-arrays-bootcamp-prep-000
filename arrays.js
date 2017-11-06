@@ -20,6 +20,3 @@ function addElementToBeginningOfArray(array,  element) {
                     return array
                 }
 
-                function accessElementInArray(array,  array[]) {
-                  return array[]
-                    }
