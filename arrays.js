@@ -30,6 +30,6 @@ function addElementToBeginningOfArray(array,  element) {
                           }
 
                           function removeElementFromBeginningOfArray(array) {
-                            array.slice()
-                            return array
+                            c = array.slice(1)
+                            return c
                               }
