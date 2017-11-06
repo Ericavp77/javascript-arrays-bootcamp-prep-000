@@ -40,6 +40,6 @@ function addElementToBeginningOfArray(array,  element) {
                                     }
 
                                     function removeElementFromEndOfArray(array) {
-                                      b = array.slice(-1)
-                                      return b
+                                      array.slice(0, array.length - 1)
+                                      return array
                                         }
